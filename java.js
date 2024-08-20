@@ -4,7 +4,7 @@
 let blath = document.querySelector("#blath");
 // let userimg = document.querySelector(".user-img");
 // let user_username = document.querySelector("#user-username");
-
+ import axios from 'axios' ;
 let users = document.querySelector(".posts");
 function getposts(i) {
   if (i == true) {
